@@ -4,3 +4,8 @@
 
 /// <reference path="../typings/browser.d.ts" />
 declare var module: { id: string };
+
+declare module 'd3' {
+    var d3: any;
+    export = d3;
+}
